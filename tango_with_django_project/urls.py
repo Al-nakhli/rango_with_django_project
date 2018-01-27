@@ -19,7 +19,6 @@ from rango import views
 from django.conf.urls import include
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.index, name='index'),
     url(r'^rango/', include('rango.urls')),
-    url(r'^about/', views.about, name='about')
+   
 ]
