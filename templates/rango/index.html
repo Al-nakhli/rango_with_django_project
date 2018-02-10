@@ -28,6 +28,7 @@ hey there partner!
 {% else %}
 <strong>There are no categories present.</strong>
 {% endif %}
+    <p> visits: {{ visits }}</p>
 </div>
 <div>
 <h3>Most Viewed Pages</h3>	
@@ -51,8 +52,7 @@ thereare no pages
 </strong>
 {% endif %}
 <div>
-<a href="/rango/about/">About Rango</a><br />
-	<a href="/rango/add_category/">Add a New Category</a><br />
+
 <img src="{% static "images/rango.jpg" %}" alt="Picture of Rango" />
 </div>
 {% endblock %}
